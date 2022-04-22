@@ -145,14 +145,19 @@
   <ItemGroup>
     <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="ConexionBD.cpp" />
+    <ClCompile Include="Id_proveedores.cpp" />
     <ClCompile Include="Persona.cpp" />
+    <ClCompile Include="Proveedor.cpp" />
+    <ClCompile Include="proveedores.cpp" />
     <ClCompile Include="pr_mysql_C_2022.cpp" />
     <ClCompile Include="Puesto.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cliente.h" />
     <ClInclude Include="ConexionBD.h" />
+    <ClInclude Include="Id_proveedores.h" />
     <ClInclude Include="Persona.h" />
+    <ClInclude Include="Proveedor.h" />
     <ClInclude Include="Puesto.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

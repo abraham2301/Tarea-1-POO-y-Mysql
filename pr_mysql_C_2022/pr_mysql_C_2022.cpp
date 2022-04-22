@@ -54,7 +54,7 @@ int main()
         cout << "Error en la conexion" << endl;
     } */
 
-    string nit, nombres, apellidos, direccion, fecha_nacimiento;
+   /* string nit, nombres, apellidos, direccion, fecha_nacimiento;
     int telefono;
     cout << "Ingrese Nit:";
     getline(cin, nit);
@@ -73,7 +73,76 @@ int main()
     Cliente c = Cliente(nombres, apellidos, direccion, telefono, fecha_nacimiento, nit);
 
     c.crear();
-    c.leer();
+    c.leer();*/
+
+    string proveedor1, nit1, direccion1, telefono1;
+    int idproducto1, eleccion,modificar1;
+    cout << "Bienvenido que deseas realizar:" << endl;
+    cout << " Agregar nuevo proveedor = 1 " << endl;
+    cout << " Mostrar proveedores = 2 " << endl;
+    cout << " Eliminar un proveedor = 3 " << endl;
+    cout << " Modificar un proveedor = 4 " << endl;
+    cout << "Respuesta = ";
+    cin >> eleccion;
+    if (eleccion == 1) {
+        cin.ignore();
+        cout << "Ingresa el Proveedor de la empresa: ";
+        getline(cin, proveedor1);
+        cin.ignore();
+        cout << "Ingresa el nit del proveedor: ";
+        getline(cin, nit1);
+        cin.ignore();
+        cout << "Ingresa la direccion del proveedor: ";
+        getline(cin, direccion1);
+        cin.ignore();
+        cout << "Ingresa el numero telefonico del proveedor: ";
+        getline(cin, telefono1);
+        cout << "Ingresa cualquier numero para verificar que no seas robot: ";
+        cin >> modificar1;
+        Cliente c = Cliente(proveedor1, nit1, direccion1, telefono1,modificar1);
+        c.crearproveedor();
+    }
+    else {
+        if (eleccion == 2) {
+            Cliente l = Cliente();
+            l.leerproveedor();
+        }
+        else {
+            if (eleccion == 3) {
+                cout << "Ingresa el ID del proveedor a eliminar: ";
+                cin >> idproducto1;
+                Cliente e = Cliente(idproducto1);
+                e.Eliminarproveedor();
+            }
+            else {
+                if (eleccion == 4) {
+                    cin.ignore();
+                    cout << "Ingresa el nuevo nombre Proveedor de la empresa a modificar: ";
+                    getline(cin, proveedor1);
+                    cin.ignore();
+                    cout << "Ingresa el nuevo nit del proveedor a modificar: ";
+                    getline(cin, nit1);
+                    cin.ignore();
+                    cout << "Ingresa la  nueva direccion del proveedor a modificar: ";
+                    getline(cin, direccion1);
+                    cin.ignore();
+                    cout << "Ingresa el nuevo numero telefonico del proveedor a modificar: ";
+                    getline(cin, telefono1);
+                    cout << "Ingresa el ID del proveedor al que quieras modificar: ";
+                    cin >> modificar1;
+
+                    Cliente m = Cliente(proveedor1, nit1, direccion1, telefono1, modificar1);
+                    m.Modificarproveedores();
+                }
+                else {
+                    cout << "Eleccion incorrecta vuelva a ingresar nuevamente" << endl;
+                }
+            }
+        }
+    }
+
+
+   
     system("pause");
     return 0;
 }

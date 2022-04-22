@@ -1,6 +1,13 @@
 ﻿  pr_mysql_C_2022.cpp
+C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\pr_mysql_C_2022\Cliente.h(128,14): warning C4101: 'resultado': variable local sin referencia
+C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\pr_mysql_C_2022\Cliente.h(127,13): warning C4101: 'fila': variable local sin referencia
+C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\pr_mysql_C_2022\Cliente.h(152,14): warning C4101: 'resultado': variable local sin referencia
+C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\pr_mysql_C_2022\Cliente.h(151,13): warning C4101: 'fila': variable local sin referencia
+C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\pr_mysql_C_2022\Cliente.h(176,14): warning C4101: 'resultado': variable local sin referencia
+C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\pr_mysql_C_2022\Cliente.h(175,13): warning C4101: 'fila': variable local sin referencia
   Generando código
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 165 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1 of 156 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Generación de código finalizada
   pr_mysql_C_2022.vcxproj -> C:\Users\Usuario\Desktop\2022\Segundo año UMG\Programacion 1\Tareas\Tarea 1  POO y Mysql\Nueva carpeta\pr_mysql_C_2022\x64\Release\pr_mysql_C_2022.exe
